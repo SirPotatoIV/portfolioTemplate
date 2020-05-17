@@ -1,0 +1,28 @@
+* {
+    box-sizing: border-box;
+    text-align: center;
+    margin-inline: 15px;
+  }
+
+body {
+    background-image: url("background.jpg");
+    background-size: 1300px;
+    background-position: center;
+    margin-left: 35px;
+    margin-right: 35px;
+}
+
+.space { 
+    height: 200px;    
+}
+
+col {
+    border: 1px solid black;
+}
+
+.card-body {
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    min-height: 1px;
+    padding: 1.25rem;
+  }

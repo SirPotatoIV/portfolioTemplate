@@ -1,0 +1,29 @@
+* {
+    box-sizing: border-box;
+    text-align: center;
+    margin-inline: 15px;
+  }
+
+body {
+    background-image: url("background.jpg");
+    background-size: 1300px;
+    background-position: center;
+    margin-left: 35px;
+    margin-right: 35px;
+}
+
+h1 {
+    padding: 20px, 0px, 35px, 0px;
+}
+
+label {
+    background-color: rgb(0, 0, 0, 0.3);
+}
+
+.flex-container {
+    align-items: baseline;
+}
+
+.space { 
+    height: 200px;    
+}
